@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Testing Google Apps]">
+  <listeners>
+    <listener class-name="com.test.automation.WozaGeleza.Listeners.Listeners"/>
+  </listeners>
+  <test name="Regression(failed)">
+    <classes>
+      <class name="com.test.automation.WozaGeleza.LoginPage.TC001_VerifyLoginScreen">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.test.automation.WozaGeleza.LoginPage.TC001_VerifyLoginScreen -->
+      <class name="com.test.automation.WozaGeleza.Header.TC001_VerifyHeader">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.test.automation.WozaGeleza.Header.TC001_VerifyHeader -->
+      <class name="com.test.automation.WozaGeleza.Helppage.TC_001_VerifyHelpPage">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.test.automation.WozaGeleza.Helppage.TC_001_VerifyHelpPage -->
+      <class name="com.test.automation.WozaGeleza.Footer.TC001_VerifyFooter">
+        <methods>
+          <include name="VerifyCopyrightText"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.test.automation.WozaGeleza.Footer.TC001_VerifyFooter -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Testing Google Apps] -->

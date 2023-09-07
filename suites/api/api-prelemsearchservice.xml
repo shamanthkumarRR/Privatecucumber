@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Prelem Search Services">
+
+	<listeners>
+		<listener class-name="web.utility.Listeners" />
+	</listeners>
+
+	<test name="Prelem Search Services">
+		<classes>
+			<class name="api.test.PrelemSearchServices.AllLayoutsServiceTest" />
+			<class name="api.test.PrelemSearchServices.FetchLayoutsServiceTest" />
+			<class name="api.test.PrelemSearchServices.LayoutSearchServiceTest" />
+			<class name="api.test.PrelemSearchServices.PrelemByIdServiceTest" />
+			<class name="api.test.PrelemSearchServices.PrelemByNameServiceTest" />
+			<class name="api.test.PrelemSearchServices.PrelemInfoServiceTest" />
+			<class name="api.test.PrelemSearchServices.PrelemPreviewServiceTest" />
+			<class name="api.test.PrelemSearchServices.PrelemSearchServiceTest" />
+			<class name="api.test.PrelemSearchServices.PrelemSuggestiveSearchServiceTest" />
+			<class name="api.test.PrelemSearchServices.TopNavigationServiceTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

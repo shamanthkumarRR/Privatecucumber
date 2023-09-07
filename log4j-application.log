@@ -1,0 +1,166 @@
+2021-12-28 12:10:33,904 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: standard
+2021-12-28 12:10:33,920 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2021-12-28 12:10:33,922 DEBUG [main] PoolingHttpClientConnectionManager:255 - Connection request: [route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2021-12-28 12:10:33,942 DEBUG [main] PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2021-12-28 12:10:33,945 DEBUG [main] MainClientExec:235 - Opening connection {s}->https://raw.githubusercontent.com:443
+2021-12-28 12:10:33,988 DEBUG [main] DefaultHttpClientConnectionOperator:139 - Connecting to raw.githubusercontent.com/185.199.111.133:443
+2021-12-28 12:10:33,989 DEBUG [main] SSLConnectionSocketFactory:337 - Connecting socket to raw.githubusercontent.com/185.199.111.133:443 with timeout 0
+2021-12-28 12:10:34,108 DEBUG [main] SSLConnectionSocketFactory:390 - Enabled protocols: [TLSv1.3, TLSv1.2]
+2021-12-28 12:10:34,109 DEBUG [main] SSLConnectionSocketFactory:391 - Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2021-12-28 12:10:34,109 DEBUG [main] SSLConnectionSocketFactory:395 - Starting handshake
+2021-12-28 12:10:34,371 DEBUG [main] SSLConnectionSocketFactory:425 - Secure session established
+2021-12-28 12:10:34,372 DEBUG [main] SSLConnectionSocketFactory:426 -  negotiated protocol: TLSv1.3
+2021-12-28 12:10:34,372 DEBUG [main] SSLConnectionSocketFactory:427 -  negotiated cipher suite: TLS_AES_256_GCM_SHA384
+2021-12-28 12:10:34,374 DEBUG [main] SSLConnectionSocketFactory:435 -  peer principal: CN=www.github.com, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
+2021-12-28 12:10:34,375 DEBUG [main] SSLConnectionSocketFactory:444 -  peer alternative names: [www.github.com, *.github.com, github.com, *.github.io, github.io, *.githubusercontent.com, githubusercontent.com]
+2021-12-28 12:10:34,376 DEBUG [main] SSLConnectionSocketFactory:448 -  issuer principal: CN=SSL-SG1-GINMU11, OU=Operations, O=Cloud Services, C=US
+2021-12-28 12:10:34,378 DEBUG [main] DefaultHttpClientConnectionOperator:146 - Connection established 192.168.1.16:59706<->185.199.111.133:443
+2021-12-28 12:10:34,378 DEBUG [main] DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 30000
+2021-12-28 12:10:34,379 DEBUG [main] MainClientExec:256 - Executing request GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+2021-12-28 12:10:34,379 DEBUG [main] MainClientExec:261 - Target auth state: UNCHALLENGED
+2021-12-28 12:10:34,383 DEBUG [main] MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2021-12-28 12:10:34,385 DEBUG [main] headers:133 - http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+2021-12-28 12:10:34,385 DEBUG [main] headers:136 - http-outgoing-0 >> User-Agent: Mozilla/5.0
+2021-12-28 12:10:34,385 DEBUG [main] headers:136 - http-outgoing-0 >> Connection: keep-alive
+2021-12-28 12:10:34,386 DEBUG [main] headers:136 - http-outgoing-0 >> Host: raw.githubusercontent.com
+2021-12-28 12:10:34,387 DEBUG [main] headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2021-12-28 12:10:34,387 DEBUG [main] wire:73 - http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1[\r][\n]"
+2021-12-28 12:10:34,388 DEBUG [main] wire:73 - http-outgoing-0 >> "User-Agent: Mozilla/5.0[\r][\n]"
+2021-12-28 12:10:34,388 DEBUG [main] wire:73 - http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2021-12-28 12:10:34,388 DEBUG [main] wire:73 - http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
+2021-12-28 12:10:34,389 DEBUG [main] wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-12-28 12:10:34,389 DEBUG [main] wire:73 - http-outgoing-0 >> "[\r][\n]"
+2021-12-28 12:10:34,458 DEBUG [main] wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2021-12-28 12:10:34,458 DEBUG [main] wire:73 - http-outgoing-0 << "Content-Length: 1144[\r][\n]"
+2021-12-28 12:10:34,459 DEBUG [main] wire:73 - http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
+2021-12-28 12:10:34,459 DEBUG [main] wire:73 - http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
+2021-12-28 12:10:34,460 DEBUG [main] wire:73 - http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+2021-12-28 12:10:34,461 DEBUG [main] wire:73 - http-outgoing-0 << "ETag: W/"aadc8d5d9ea31bd37c0696d45d6f1062005a1e24cc71d4d4c8317eabdfbf0861"[\r][\n]"
+2021-12-28 12:10:34,461 DEBUG [main] wire:73 - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+2021-12-28 12:10:34,462 DEBUG [main] wire:73 - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+2021-12-28 12:10:34,463 DEBUG [main] wire:73 - http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
+2021-12-28 12:10:34,463 DEBUG [main] wire:73 - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2021-12-28 12:10:34,464 DEBUG [main] wire:73 - http-outgoing-0 << "X-GitHub-Request-Id: 7FA6:6E97:8A659:D4835:61C90BB7[\r][\n]"
+2021-12-28 12:10:34,464 DEBUG [main] wire:73 - http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+2021-12-28 12:10:34,465 DEBUG [main] wire:73 - http-outgoing-0 << "Date: Tue, 28 Dec 2021 06:40:33 GMT[\r][\n]"
+2021-12-28 12:10:34,465 DEBUG [main] wire:73 - http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+2021-12-28 12:10:34,465 DEBUG [main] wire:73 - http-outgoing-0 << "X-Served-By: cache-del21744-DEL[\r][\n]"
+2021-12-28 12:10:34,466 DEBUG [main] wire:73 - http-outgoing-0 << "X-Cache: HIT[\r][\n]"
+2021-12-28 12:10:34,466 DEBUG [main] wire:73 - http-outgoing-0 << "X-Cache-Hits: 1[\r][\n]"
+2021-12-28 12:10:34,467 DEBUG [main] wire:73 - http-outgoing-0 << "X-Timer: S1640673633.145321,VS0,VE0[\r][\n]"
+2021-12-28 12:10:34,468 DEBUG [main] wire:73 - http-outgoing-0 << "Vary: Authorization,Accept-Encoding,Origin[\r][\n]"
+2021-12-28 12:10:34,468 DEBUG [main] wire:73 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2021-12-28 12:10:34,468 DEBUG [main] wire:73 - http-outgoing-0 << "X-Fastly-Request-ID: 1aec8ea0dff1cfa623dfbe300f6d90854617cee0[\r][\n]"
+2021-12-28 12:10:34,469 DEBUG [main] wire:73 - http-outgoing-0 << "Expires: Tue, 28 Dec 2021 06:45:33 GMT[\r][\n]"
+2021-12-28 12:10:34,469 DEBUG [main] wire:73 - http-outgoing-0 << "Source-Age: 207[\r][\n]"
+2021-12-28 12:10:34,469 DEBUG [main] wire:73 - http-outgoing-0 << "Connection: Keep-Alive[\r][\n]"
+2021-12-28 12:10:34,470 DEBUG [main] wire:73 - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2021-12-28 12:10:34,470 DEBUG [main] wire:73 - http-outgoing-0 << "[\r][\n]"
+2021-12-28 12:10:34,477 DEBUG [main] headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2021-12-28 12:10:34,477 DEBUG [main] headers:125 - http-outgoing-0 << Content-Length: 1144
+2021-12-28 12:10:34,478 DEBUG [main] headers:125 - http-outgoing-0 << Cache-Control: max-age=300
+2021-12-28 12:10:34,478 DEBUG [main] headers:125 - http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+2021-12-28 12:10:34,478 DEBUG [main] headers:125 - http-outgoing-0 << Content-Type: text/plain; charset=utf-8
+2021-12-28 12:10:34,478 DEBUG [main] headers:125 - http-outgoing-0 << ETag: W/"aadc8d5d9ea31bd37c0696d45d6f1062005a1e24cc71d4d4c8317eabdfbf0861"
+2021-12-28 12:10:34,479 DEBUG [main] headers:125 - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+2021-12-28 12:10:34,479 DEBUG [main] headers:125 - http-outgoing-0 << X-Content-Type-Options: nosniff
+2021-12-28 12:10:34,479 DEBUG [main] headers:125 - http-outgoing-0 << X-Frame-Options: deny
+2021-12-28 12:10:34,479 DEBUG [main] headers:125 - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+2021-12-28 12:10:34,479 DEBUG [main] headers:125 - http-outgoing-0 << X-GitHub-Request-Id: 7FA6:6E97:8A659:D4835:61C90BB7
+2021-12-28 12:10:34,480 DEBUG [main] headers:125 - http-outgoing-0 << Accept-Ranges: bytes
+2021-12-28 12:10:34,480 DEBUG [main] headers:125 - http-outgoing-0 << Date: Tue, 28 Dec 2021 06:40:33 GMT
+2021-12-28 12:10:34,480 DEBUG [main] headers:125 - http-outgoing-0 << Via: 1.1 varnish
+2021-12-28 12:10:34,480 DEBUG [main] headers:125 - http-outgoing-0 << X-Served-By: cache-del21744-DEL
+2021-12-28 12:10:34,480 DEBUG [main] headers:125 - http-outgoing-0 << X-Cache: HIT
+2021-12-28 12:10:34,481 DEBUG [main] headers:125 - http-outgoing-0 << X-Cache-Hits: 1
+2021-12-28 12:10:34,481 DEBUG [main] headers:125 - http-outgoing-0 << X-Timer: S1640673633.145321,VS0,VE0
+2021-12-28 12:10:34,481 DEBUG [main] headers:125 - http-outgoing-0 << Vary: Authorization,Accept-Encoding,Origin
+2021-12-28 12:10:34,482 DEBUG [main] headers:125 - http-outgoing-0 << Access-Control-Allow-Origin: *
+2021-12-28 12:10:34,482 DEBUG [main] headers:125 - http-outgoing-0 << X-Fastly-Request-ID: 1aec8ea0dff1cfa623dfbe300f6d90854617cee0
+2021-12-28 12:10:34,482 DEBUG [main] headers:125 - http-outgoing-0 << Expires: Tue, 28 Dec 2021 06:45:33 GMT
+2021-12-28 12:10:34,483 DEBUG [main] headers:125 - http-outgoing-0 << Source-Age: 207
+2021-12-28 12:10:34,483 DEBUG [main] headers:125 - http-outgoing-0 << Connection: Keep-Alive
+2021-12-28 12:10:34,483 DEBUG [main] headers:125 - http-outgoing-0 << Content-Encoding: gzip
+2021-12-28 12:10:34,490 DEBUG [main] MainClientExec:285 - Connection can be kept alive indefinitely
+2021-12-28 12:10:34,498 DEBUG [main] wire:73 - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0x97][0xcb]n[0xeb]8[0xc][0x86][0xf7]y[\n]"
+2021-12-28 12:10:34,499 DEBUG [main] wire:73 - http-outgoing-0 << "[0x3]g]EWJ*[0xa0][0xcd]\W[0x83]Y[0xcc][0xbc]@[0x9a][0xa8][0xa9]q[0x92][0xb8][0xb0][0x93][0x93][0x83]y[0xfa][0xa1].t[0x14][0xe1][0xc]0[0x8b][0xa2][0xe5]g[0x89]"e[0xd2]?[0xfb]e[0xf8][0xfb]c\[0x86][0xf7][0xf1][0x14][0x87][0xfd]t[0xb9][0xee][0xc6][0xcb]2\?[0xe2][0xf0][0xf5]2[0xdd]/[0xc3]a[0x1e][0xbf][0xc5]y[0xc0][0x9f]e[0x9c][0xf0][0xc9]~:[0xee][0xae][0xe3][0x1b][0xae][0xbe][0x8f][0xd7][0x8f][0xbc]r?[0xcd]s\>[0xa7][0xcb]a[0xbc][0x1c][0x87][0xb7]y[0xba]/[0x8f]-[0x9b][0xcd][0x97][0xe1][0xa7][0x82]^[0x87][0xdf][0xa7][0xe9][0x88];[0xfe][0x98][0xa7]s[0x1c]v[0x97]C[0xf9]s[0xbc][0x9d][0x87][0x97][0xe1][0x97]|[0xd4][0xeb][0xb0][0xcf]O[0xcb][0xc1][0xb8][0xf9][0xaf][0xe9]6[0xef][0xe3][0xeb][0xf0]q[0xbd]~[0xbe]n[0xb7][0xed]S[0xb6][0xaf][0xbb][0xd9]4[0x1f][0xb7][0x7][0x8c][0xf7]4[0xed][0xe][0xcb][0xa6][0xac][0xf1]6x[0xcb]8[0xd3][0xe0]%S@[0x14][0x82][0x87]LA3m[0x88][0x9a][0xe0]M[0xa6][0xca]1[0xf0]Du[0xf0]:S[0xe]L[0x8]EX[0x5][0xaf][0x12]6[0xd6]2X[0xa9][0xc]xN[0xa2][0xc2]0[0xc1]-a[0x11][0xbc]HX[[0x89]X[0x10][0xe6][0xc1][0xf3][0x8c][0x15]gRW[0xea]|p>Q[0x85][0xbf]$yv.8[0x97][0xa9][0xd4][0xcc]S"[0xce][0x6][0x97][0xd3][0x93][0x8e]3[0xe7][0x88]Bp9=[0xa9][0xd1][0xaf]$j[0x82][0xcb][0xe9][0x9][0xa7][0x98][0xa3][0xd0][0x9c][0xe].[0xa7]'[0xb4]e[0x8a][0x13]U[0xc1][0xe5][0xec][0x4]WL[0xd1]U8[0x11]\N[0x83]k[0xcd][0x84]Z[0x8f][0xe3][0xc1][0xa5]4[0x94][0xc7]X[0x4][0xa7][0xd8][0xac][0xf][0xd6]g[0xac][0xcd][0xe3][0xea][0xad][0xb][0xd6]e[0xca][0xd1][0x7][0xa7][0xbb][0xb7]6[0xd8][0x94][0x88]r`[0xd0]?Q[0x8][0x16]2[0xe5][0x9e][0x9][0xb9][0xfa]0[0xc1][0xa6]L[0x94][0xb5][0x9c][0x89][0xc7]j[0x1d][0xac][0xce]Xz[0xb6][0xae]U[0xc1][0xa6]L[0x14]`B@![[0x19]$[0xbe]Q[0xb2][0xc4][0x93][0xc5][0x93]E[0x81][0x81]O[0x16][0xbd][0x1b]p[0xc9][0xa2][0x1b][0x5][0x9b],z[0x9b][0x0][0xc9][0xa2]`[0xc0][0xa0][0xb5]^[0x11][0xe8]d[0xd1][0x9d][0x83][\n]"
+2021-12-28 12:10:34,499 DEBUG [main] wire:73 - http-outgoing-0 << "M1B[0x8a]E[0xad][0xe7][0xa5]X[0xd4]z^[0x8a]E[0xa9][0xa7][0xfe][0xf9]c[0xfa]g<[0x9d]v[0xc3]o[0xe3][0x1c][0xdf][0xa7][0xef]M[0xd3][0x1c][0xe3][0xfe][0xeb][0xf4][0xc3][0x9e]Y[0xb0]i[0x8e][0xd8][0xaa][0xb7]7[0x86][0xcd][0xbb]=[0x17][0x17][0xdb]f[0xc3]v[0x8e][0xa7][0xb8][[0xe2][0xb2]y/~[0xb1][0xee][0xf1][0xd6][0xf0][0xbd][0xae]@[0xf5]@[0xf6]@ [0xc0][0xbb]o[0x0];[0x8d][0x97][0xdb][0xf7][0x82]E[0x83][0xef][0xe3][0xa5][0x87][0xbc][0xdf][0xcc][0xb8][0x19][0xdb][0xe3]y[0x1d]vF[0x7]l[0xf][0xa0][0x7][0xa6][0x7][0xba][0x7])Y[0xe9][0x1a] {[0x90][0x93][0xb5][\r][0xe0][0x1d][0xb0][0xbe][0x7]9Rh[0x80][0xed][0x1][0xf4][0xc0][0xf4]@[0xf7]@[0xf5]@[0xf6]@[0xf4][0x80]w[0x0]|[0xf]r[0xa4][0xa6][0x1]9R[0xdd][0x0][0xe8][0x81][0xe9]A[0x8e]T5@[0xf5] G*[0x1b][0x90]#[0x15][\r][0xe0][0x1d]0[0xbe][0x7][0xae][0x7][0xb6][0x7]9[0xd2][0xa6]L[0x8d]![0xd0][0xb6][0xd5][0x9f][0x9f]q[0xde]5[0xcd]4%[0xfb][0xff]4S^[0xb8]L[0xef][0xd7][0xfb]n[0x8e][0xc5]"I[0xea][+?[0xc4]Jz[0x12][0x9f][0x2]E[0xa3]=FW[0xc8][0x1b][0xe9][0x1]Q V[0xd5][0x93][0xf0][0x14][0xe8]:[0xdd])[0xd4]6[0xb2]c[0x9]B#:[0xae][0x1e][0x8f]e[0xf6][0xd0][0x1c]'+[0xd4][0x8d][0xe4][0x8]^[0x83][0xc2]z{H[0xe][0x90]S[0xd9]([0x8e][0xe3][0x15][0x8a]Fp[0x4]'[0xaf][0xbc][0x11][0x1c][0xe7][0xb][0xc4][0x2]|[0xe8][0x8d][0xaf]N[0xb1][0x8][0x1b][0xb9][0x11]5U[0xac][0xc4]Vm[0xea]YX[0x8e][0xf][0xb1][0xb1][0xe4][0xd5]4Z[0xe3][0xc8][0xab]n[0x94]FH[0xda][0xaf]Z[0xa5]Q5V,[0xd0]Fh[0xd6][0xb3][0xaa]@d[0xc3][0xf8][0xd6][0xa8][0xf2]P[0x8c][0xaa][0xe][0xc5][0xa8][0xe2]P[0x8c][0xaa][\r][0xc5][0xa8][0xd2]P[0x8c][0xaa][0xc][0xc5][0xa8][0xc2]P[0xc]Q[0x94][0xa0][0x18][0xbc]1t[0x8a][0x80]"[0xd6])[0x2]U[0xcf][0xd1])[0x2]Y/CC1[0x9e][0xa4]d[0xdc][0xcf]S*[0xdd][0xe1][0xd7][0xc3]16[0xc5]^"[0x82][0xff][0xac][0xfe]C[0xfc][0x16]O[0xc9]+;[0x93][0x87][0xdc][\n]"
+2021-12-28 12:10:34,500 DEBUG [main] wire:73 - http-outgoing-0 << "[0xf1][0xf2]r[[0xb6]+{IN[0xb6][0xd7]i:-[0xdb]{|[0xab][0xdd][0xb0]I[0xd4]c[0x15][0xa7]W#[0xb8]K[0xdf][0xf6][0x8c][0xea][0xa8][0x86][0xe5]+[0x99]+[0xa8][0xce]i8'[0xe8]t[0x95][0x99][0xd5])[\r][0xb][0x8a]3[0xa3][\n]"
+2021-12-28 12:10:34,500 DEBUG [main] wire:87 - http-outgoing-0 << "[0xab]3[0x9a]OC^]V[0xe7]3[0xf]"[0xdd]TFu8[0xf3]\2[0x90][0x5][0xd5][0xc1][0xcc][0xc1][0xc3][0x1d][0xca][0x9c][0xe0]50[0x1a][0xc8],N[0x17]%.[0x1a][0xc6],7[0xb4][0x8d]&1[0x80][0xa4]"[0x99][0xd4])[0xc][0xf0][0xb][0x87][0xd3]dFu[0x4]3x[0x9c][0xad][0xab][0xea][0xfc]e[0xf2][0xa7]3[0x13][0x9a][0xbd][0xb0]vM=[0xf][0xdb][0xab][0xb4]7][0xd6]:[0x8a][0x9]H[0x9d][0x9d][0x11][0x8d]a[0x98][0xb1][0x10]e[0xd9]:[0x83][0x9]U[0xbd][0xd3][0xfc]%S[0x13][0x14]RG/[0xa9]VR[0xc7][0xae][0xd4][0xb7][0x95][0xd4][0x89]K([0x1c]I[0xb][0xd2]:|[0xce][0xf1][0x5][0xff]S[0xb8][0xee]N[0xa7]x(P[0x6][0x1c][0x92][0xad][0xc0][0x1]&[0x9b]"`[0x8f][0x81][0xf4]%}[0xcd][0x3]6[0xb2][0xe1]P[0xde][0x87]r[0x1][0xbf][0xb]Z[0xf9]b[0xca][0xd4][0x15][0xf8][0xa6][0x1d][0x14][0x93][0x7][0x91]^26[0xcd][0xbf][0xad][0x83]2[0xf1][0x9f][0xc][0x0][0x0]"
+2021-12-28 12:10:34,502 DEBUG [main] PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {s}->https://raw.githubusercontent.com:443] can be kept alive indefinitely
+2021-12-28 12:10:34,502 DEBUG [main] PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2021-12-28 12:10:40,774  INFO [main] Log:39 - chrome
+2021-12-28 12:10:40,775  INFO [main] Log:39 - 96.0.4664.110
+2021-12-28 12:10:48,860  INFO [main] Log:16 - ****************************************************************************************
+2021-12-28 12:10:48,860  INFO [main] Log:18 - ****************************************************************************************
+2021-12-28 12:10:48,861  INFO [main] Log:20 - $$$$$$$$$$$$$$$$$$$$$       Verifyloginbutton       $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-12-28 12:10:48,861  INFO [main] Log:22 - ****************************************************************************************
+2021-12-28 12:10:48,861  INFO [main] Log:24 - ****************************************************************************************
+2021-12-28 12:10:49,006  INFO [main] Log:39 - Waited until visiblity of element located
+2021-12-28 12:10:54,378 DEBUG [main] cache:45 - Couldn't find template in cache for "extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-28 12:10:54,381 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("extent_en_US.ftl"): Not found
+2021-12-28 12:10:54,384 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("extent_en.ftl"): Not found
+2021-12-28 12:10:54,386 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("extent.ftl"): Found
+2021-12-28 12:10:54,387 DEBUG [main] cache:45 - Loading template for "extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/senthilvel.sanka/.m2/repository/com/aventstack/extentreports/3.0.0/extentreports-3.0.0.jar!/com/aventstack/extentreports/view/extent.ftl"
+2021-12-28 12:10:54,615 DEBUG [main] cache:45 - Couldn't find template in cache for "head.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-28 12:10:54,616 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head_en_US.ftl"): Not found
+2021-12-28 12:10:54,618 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+2021-12-28 12:10:54,619 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found
+2021-12-28 12:10:54,619 DEBUG [main] cache:45 - Loading template for "head.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/senthilvel.sanka/.m2/repository/com/aventstack/extentreports/3.0.0/extentreports-3.0.0.jar!/com/aventstack/extentreports/view/head.ftl"
+2021-12-28 12:10:54,624 DEBUG [main] cache:45 - Couldn't find template in cache for "nav.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-28 12:10:54,625 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav_en_US.ftl"): Not found
+2021-12-28 12:10:54,626 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+2021-12-28 12:10:54,627 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+2021-12-28 12:10:54,628 DEBUG [main] cache:45 - Loading template for "nav.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/senthilvel.sanka/.m2/repository/com/aventstack/extentreports/3.0.0/extentreports-3.0.0.jar!/com/aventstack/extentreports/view/nav.ftl"
+2021-12-28 12:10:54,647 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-28 12:10:54,648 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en_US.ftl"): Not found
+2021-12-28 12:10:54,649 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+2021-12-28 12:10:54,650 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+2021-12-28 12:10:54,651 DEBUG [main] cache:45 - Loading template for "test-view/test-view.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/senthilvel.sanka/.m2/repository/com/aventstack/extentreports/3.0.0/extentreports-3.0.0.jar!/com/aventstack/extentreports/view/test-view/test-view.ftl"
+2021-12-28 12:10:54,709 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-28 12:10:54,710 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en_US.ftl"): Not found
+2021-12-28 12:10:54,712 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+2021-12-28 12:10:54,713 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+2021-12-28 12:10:54,713 DEBUG [main] cache:45 - Loading template for "test-view/test-view-charts.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/senthilvel.sanka/.m2/repository/com/aventstack/extentreports/3.0.0/extentreports-3.0.0.jar!/com/aventstack/extentreports/view/test-view/test-view-charts.ftl"
+2021-12-28 12:10:54,739 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-28 12:10:54,740 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en_US.ftl"): Not found
+2021-12-28 12:10:54,741 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+2021-12-28 12:10:54,743 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+2021-12-28 12:10:54,743 DEBUG [main] cache:45 - Loading template for "test-view/standard.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/senthilvel.sanka/.m2/repository/com/aventstack/extentreports/3.0.0/extentreports-3.0.0.jar!/com/aventstack/extentreports/view/test-view/standard.ftl"
+2021-12-28 12:10:54,774 DEBUG [main] cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-28 12:10:54,775 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en_US.ftl"): Not found
+2021-12-28 12:10:54,776 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+2021-12-28 12:10:54,777 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+2021-12-28 12:10:54,778 DEBUG [main] cache:45 - Loading template for "category-view/category-view.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/senthilvel.sanka/.m2/repository/com/aventstack/extentreports/3.0.0/extentreports-3.0.0.jar!/com/aventstack/extentreports/view/category-view/category-view.ftl"
+2021-12-28 12:10:54,787 DEBUG [main] cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-28 12:10:54,789 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en_US.ftl"): Not found
+2021-12-28 12:10:54,790 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+2021-12-28 12:10:54,791 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+2021-12-28 12:10:54,791 DEBUG [main] cache:45 - Loading template for "exception-view/exception-view.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/senthilvel.sanka/.m2/repository/com/aventstack/extentreports/3.0.0/extentreports-3.0.0.jar!/com/aventstack/extentreports/view/exception-view/exception-view.ftl"
+2021-12-28 12:10:54,795 DEBUG [main] cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-28 12:10:54,796 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en_US.ftl"): Not found
+2021-12-28 12:10:54,797 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+2021-12-28 12:10:54,797 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+2021-12-28 12:10:54,798 DEBUG [main] cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/senthilvel.sanka/.m2/repository/com/aventstack/extentreports/3.0.0/extentreports-3.0.0.jar!/com/aventstack/extentreports/view/dashboard-view/dashboard-view.ftl"
+2021-12-28 12:10:54,812 DEBUG [main] cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-28 12:10:54,815 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en_US.ftl"): Not found
+2021-12-28 12:10:54,817 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+2021-12-28 12:10:54,818 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+2021-12-28 12:10:54,820 DEBUG [main] cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/senthilvel.sanka/.m2/repository/com/aventstack/extentreports/3.0.0/extentreports-3.0.0.jar!/com/aventstack/extentreports/view/logs-view/testrunner-logs-view.ftl"
+2021-12-28 12:17:52,544  INFO [main] Log:39 - chrome
+2021-12-28 12:17:52,551  INFO [main] Log:39 - 96.0.4664.110
+2021-12-28 12:18:00,028  INFO [main] Log:16 - ****************************************************************************************
+2021-12-28 12:18:00,030  INFO [main] Log:18 - ****************************************************************************************
+2021-12-28 12:18:00,030  INFO [main] Log:20 - $$$$$$$$$$$$$$$$$$$$$       Verifyloginbutton       $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-12-28 12:18:00,030  INFO [main] Log:22 - ****************************************************************************************
+2021-12-28 12:18:00,031  INFO [main] Log:24 - ****************************************************************************************
+2021-12-28 12:18:00,195  INFO [main] Log:39 - Waited until visiblity of element located
+2021-12-28 12:25:02,220  INFO [main] Log:35 - Browser Name: chrome
+2021-12-28 12:28:10,666  INFO [main] Log:35 - Browser Name: chrome
+2021-12-28 12:28:10,670  INFO [main] Log:35 - Browser Version: 96.0.4664.110
+2021-12-28 12:28:18,273  INFO [main] Log:16 - ****************************************************************************************
+2021-12-28 12:28:18,274  INFO [main] Log:18 - $$$$$$$$$$$$$$$$$$ TestMethod Name: Verifyloginbutton       $$$$$$$$$$$$$$$$$$
+2021-12-28 12:28:18,275  INFO [main] Log:20 - ****************************************************************************************
+2021-12-28 12:28:18,287  INFO [main] Log:35 - Testcase Execution started
+2021-12-28 12:28:18,459  INFO [main] Log:35 - Waited until visiblity of element located
+2021-12-28 12:28:22,875  INFO [main] Log:35 - Testcase Execution completed

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Woza Geleza Apps">
+
+	<listeners>
+		<listener class-name="web.utility.Listeners" />
+	</listeners>
+
+	<test name="Regression">
+		<classes>
+			<class name="web.test.faqServices.FaqServiceTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

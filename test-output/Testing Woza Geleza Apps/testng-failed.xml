@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testing Woza Geleza Apps]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="web.utility.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Regression(failed)">
+    <classes>
+      <class name="web.test.PrelemMoveUpDown.PrelemMoveUpDownTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="VerifyPrelemUpDownIconsWhenTwoPrelemExists"/>
+          <include name="generateData"/>
+          <include name="VerifyPrelemUpDownIconsWhenThreePrelemExists"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="inItializeObjects"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- web.test.PrelemMoveUpDown.PrelemMoveUpDownTest -->
+      <class name="web.test.PrelemSearch.PrelemSearchTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="inItializeObjects"/>
+          <include name="VerifyPrelemSearchErrorMessage"/>
+          <include name="afterSuite"/>
+          <include name="generateData"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- web.test.PrelemSearch.PrelemSearchTest -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Testing Woza Geleza Apps] -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testing Woza Geleza Apps]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.test.automation.WozaGeleza.Listeners.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Regression(failed)" verbose="0">
+    <classes>
+      <class name="web.test.changePassword.ChangePasswordTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="Verifyusernamepassword"/>
+          <include name="Verifyloginbutton"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- web.test.changePassword.ChangePasswordTest -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Testing Woza Geleza Apps] -->

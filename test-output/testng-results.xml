@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-24T13:30:17Z" name="Default suite" finished-at="2022-02-24T13:30:44Z" duration-ms="26431">
+    <groups>
+    </groups>
+    <test started-at="2022-02-24T13:30:17Z" name="Default test" finished-at="2022-02-24T13:30:44Z" duration-ms="26431">
+      <class name="web.test.PrelemSearch.PrelemSearchTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:web.test.PrelemSearch.PrelemSearchTest@316bcf94]" started-at="2022-02-24T13:30:17Z" name="beforeSuite" finished-at="2022-02-24T13:30:17Z" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="generateData()[pri:0, instance:web.test.PrelemSearch.PrelemSearchTest@316bcf94]" started-at="2022-02-24T13:30:17Z" name="generateData" finished-at="2022-02-24T13:30:17Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateData -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:web.test.PrelemSearch.PrelemSearchTest@316bcf94]" started-at="2022-02-24T13:30:17Z" name="beforeMethod" finished-at="2022-02-24T13:30:25Z" duration-ms="7126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void web.test.PrelemSearch.PrelemSearchTest.VerifyPrelemSearchErrorMessage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="inItializeObjects()[pri:0, instance:web.test.PrelemSearch.PrelemSearchTest@316bcf94]" started-at="2022-02-24T13:30:25Z" name="inItializeObjects" finished-at="2022-02-24T13:30:25Z" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inItializeObjects -->
+        <test-method signature="VerifyPrelemSearchErrorMessage()[pri:1, instance:web.test.PrelemSearch.PrelemSearchTest@316bcf94]" started-at="2022-02-24T13:30:25Z" name="VerifyPrelemSearchErrorMessage" description="Validate the error message when search results has not return any results" finished-at="2022-02-24T13:30:44Z" duration-ms="18905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPrelemSearchErrorMessage -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:web.test.PrelemSearch.PrelemSearchTest@316bcf94]" started-at="2022-02-24T13:30:44Z" name="afterMethod" finished-at="2022-02-24T13:30:44Z" duration-ms="264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyPrelemSearchErrorMessage status=SUCCESS method=PrelemSearchTest.VerifyPrelemSearchErrorMessage()[pri:1, instance:web.test.PrelemSearch.PrelemSearchTest@316bcf94] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:web.test.PrelemSearch.PrelemSearchTest@316bcf94]" started-at="2022-02-24T13:30:44Z" name="afterSuite" finished-at="2022-02-24T13:30:44Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- web.test.PrelemSearch.PrelemSearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

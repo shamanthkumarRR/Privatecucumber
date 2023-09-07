@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Page List Services">
+
+	<listeners>
+		<listener class-name="web.utility.Listeners" />
+	</listeners>
+
+	<test name="Page List Services">
+		<classes>
+			<class name="api.test.PageListServices.PageListBySchPublishServiceTest" />
+			<class name="api.test.PageListServices.PageListBySchUnpublishServiceTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

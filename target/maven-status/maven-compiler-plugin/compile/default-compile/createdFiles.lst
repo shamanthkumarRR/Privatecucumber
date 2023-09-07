@@ -1,0 +1,6 @@
+utility\Log.class
+com\test\automation\WozaGeleza\TestData\YamlData.class
+utility\Utility.class
+web\pageObjects\ChangePassword.class
+com\test\automation\WozaGeleza\Listeners\Listeners.class
+web\testBase\WebBaseClass.class
